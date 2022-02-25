@@ -1,5 +1,5 @@
 # Airbnb-Clone
-This is a clone website for Airbnb.co.in
+This is a clone homepage of Airbnb.co.in
 
 Here is the link of the clone website:
 
