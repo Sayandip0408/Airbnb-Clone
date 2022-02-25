@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb: Holiday Rentals, Cabins</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-css.css">
+    <script src="https://kit.fontawesome.com/45e0f9f93b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="/airbnb-logo-266x300@2x.png" alt="">
+        <h1>airbnb</h1>
+        <button onclick="places_to_stsy()" class="nav-btn" id="navbtn1">
+            Places to stay
+        </button>
+        <button onclick="experiences()" class="nav-btn" id="navbtn2">
+            Experiences
+        </button>
+        <button onclick="window.location.href='https://www.airbnb.co.in/s/experiences/online';" class="nav-btn" id="navbtn3">
+            Online Experiences
+        </button>
+        <div class="both-icon" onclick="signup()">
+            <button class="nav-icon" id="nav-icon-2">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button class="nav-icon" id="nav-icon-3">
+                <i class="fas fa-user"></i>
+            </button>
+        </div>
+        <button onclick="" class="nav-icon" id="nav-icon-1">
+            <i class="fas fa-globe"></i>
+        </button>
+        <button onclick="window.location.href = 'https://www.airbnb.co.in/host/homes';" class="nav-btn" id="navbtn4">
+            Become a host
+        </button>
+    </div>
+    <div class="second-div">
+        <div class="search-div" id="first-search">
+            <div class="search-column" id="loc">
+                <h5>
+                    Location
+                </h5>
+                <input type="text" name="" id="loc-in" placeholder="Where to go">
+            </div>
+            <div class="search-column">
+                <h5>
+                    Check in
+                </h5>
+                <input type="text" name="" id="" placeholder="Add dates">
+            </div>
+            <div class="search-column">
+                <h5>
+                    Check out
+                </h5>
+                <input type="text" name="" id="" placeholder="Add dates">
+            </div>
+            <div class="search-column" id="last-search-column">
+                <h5>
+                    Guests
+                </h5>
+                <input type="text" name="" id="" placeholder="Add guests">
+            </div>
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <div class="search-div" id="second-search">
+            <div class="search-column" id="loc">
+                <h5>
+                    Location
+                </h5>
+                <input type="text" name="" id="loc-in" placeholder="Where to go">
+            </div>
+            <div class="search-column">
+                <h5>
+                    Dates
+                </h5>
+                <input type="text" name="" id="" placeholder="Add when you want to go">
+            </div>
+            <button id="second-search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="bar" id="bar-id">
+        <button onclick="window.location.href = 'https://www.airbnb.co.in/';">Sign up</button>
+        <button onclick="window.location.href = 'https://www.airbnb.co.in/';">Log in</button>
+        <hr>
+        <button onclick="window.location.href = 'https://www.airbnb.co.in/host/homes';">Host your home</button>
+        <button onclick="window.location.href = 'https://www.airbnb.co.in/host/experiences?from_nav=1';">Host your experience</button>
+        <button onclick="window.location.href = 'https://www.airbnb.co.in/help/home';">Help</button>
+    </div>
+
+    <div class="first-container">
+        <h1>Not sure where to go? Perfect.</h1>
+        <button onclick="window.location.href = 'https://www.airbnb.co.in/s/homes?search_mode=flex_destinations_search&date_picker_type=flexible_dates';" id="flexible">I'm flexible</button>
+    </div>
+    <div class="second-container">
+        <h1>Inspiration for your next trip</h1>
+        <div class="card-div">
+            <div onclick="window.location.href = 'https://www.airbnb.co.in/s/Kolkata/homes?place_id=ChIJZ_YISduC-DkRvCxsj-Yw40M&query=Kolkata&refinement_paths%5B%5D=%2Fhomes&tab_id=home_tab';" class="card" id="card1">
+                <img src="/kolkata.webp" alt="Avatar"
+                    style="width:100%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                <div class="card-photo">
+                    <h4>Kolkata</h4>
+                    <p>1 kilometre away</p>
+                </div>
+            </div>
+            <div onclick="window.location.href='https://www.airbnb.co.in/s/Bolpur/homes?place_id=ChIJJQMS21HD-TkR5dzbhuT1jsU&query=Bolpur&refinement_paths%5B%5D=%2Fhomes&tab_id=home_tab';" class="card" id="card2">
+                <img src="/bolpur.webp" alt="Avatar"
+                    style="width:100%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                <div class="card-photo">
+                    <h4>Bolpur</h4>
+                    <p>141 kilometre away</p>
+                </div>
+            </div>
+            <div onclick="window.location.href = 'https://www.airbnb.co.in/s/Puri/homes?place_id=ChIJleRWAhjEGToR1_rBMIudakk&query=Puri&refinement_paths%5B%5D=%2Fhomes&tab_id=home_tab';" class="card" id="card3">
+                <img src="/puri.webp" alt="Avatar"
+                    style="width:100%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                <div class="card-photo">
+                    <h4>Puri</h4>
+                    <p>404 kilometre away</p>
+                </div>
+            </div>
+            <div onclick="window.location.href = 'https://www.airbnb.co.in/s/Diamond-Harbour/homes?place_id=ChIJgxNcwKJfAjoRlSTTWC1O8yg&query=Diamond%20Harbour&refinement_paths%5B%5D=%2Fhomes&tab_id=home_tab';" class="card" id="card4">
+                <img src="/diamond.webp" alt="Avatar"
+                    style="width:100%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                <div class="card-photo">
+                    <h4>Diamond Harbour</h4>
+                    <p>46 kilometre away</p>
+                </div>
+            </div>
+            <div style="height: 50px; clear: both;"></div>
+        </div>
+        <h1 id="second-container-second-h1">Discover Airbnb Experiences</h1>
+        <div class="trip">
+            <div class="trip1">
+                <h1>Things to do <br> on your trip</h1>
+                <button onclick="window.location.href = 'https://www.airbnb.co.in/s/experiences?location_search=NEARBY';" class="trip-btn" id="trip-btn1">Experiences</button>
+            </div>
+            <div class="trip2">
+                <h1>Things to do <br> from home</h1>
+                <button onclick="window.location.href='https://www.airbnb.co.in/s/experiences/online';" class="trip-btn" id="trip-btn2">Online Experiences</button>
+            </div>
+        </div>
+        <div style="height: 50px; clear: both;"></div>
+    </div>
+    <div class="footer">
+        <div class="footer-column">
+            <h5>Support</h5>
+            <ul>
+                <li><a href="https://www.airbnb.co.in/help/home?from=footer">Help Centre</a></li>
+                <li><a href="https://www.airbnb.co.in/trust">Safety information</a></li>
+                <li><a href="https://www.airbnb.co.in/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19">Cancellation options</a></li>
+                <li><a href="https://www.airbnb.co.in/d/covidsafety">Our COVID-19 Response</a></li>
+                <li><a href="https://www.airbnb.co.in/accessibility">Supporting people with disabilities</a></li>
+                <li><a href="https://www.airbnb.co.in/neighbors">Report a neighbourhood concern</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>Community</h5>
+            <ul>
+                <li><a href="https://www.airbnb.org/?locale=en-IN&_ga=2.232597913.740723399.1644474020-219973312.1644474020">Airbnb.org: disaster relief housing</a></li>
+                <li><a href="https://www.airbnb.org/refugees?_ga=2.132669198.1011805191.1644474035-2126012774.1644474035">Support Afghan refugees</a></li>
+                <li><a href="https://www.airbnb.co.in/against-discrimination">Combating discrimination</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>Hosting</h5>
+            <ul>
+                <li><a href="https://www.airbnb.co.in/host/homes?from_footer=1">Try hosting</a></li>
+                <li><a href="https://www.airbnb.co.in/aircover">AirCover: protection for Hosts</a></li>
+                <li><a href="https://www.airbnb.co.in/resources/hosting-homes">Explore hosting resources</a></li>
+                <li><a href="https://community.withairbnb.com/t5/Community-Center/ct-p/community-center">Visit our community forum</a></li>
+                <li><a href="https://www.airbnb.co.in/help/article/1380/responsible-hosting-in-india">How to host responsibly</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>About</h5>
+            <ul>
+                <li><a href="https://news.airbnb.com/?region=India">Newsroom</a></li>
+                <li><a href="https://www.airbnb.co.in/2021-winter">Learn about new features</a></li>
+                <li><a href="https://news.airbnb.com/what-makes-airbnb-airbnb/">Letter from our founders</a></li>
+                <li><a href="https://careers.airbnb.com/">Careers</a></li>
+                <li><a href="https://investors.airbnb.com/home/default.aspx">Investors</a></li>
+                <li><a href="https://www.airbnb.co.in/luxury">Airbnb Luxe</a></li>
+            </ul>
+        </div>
+        <div class="end-footer">
+            <div class="end-footer-column-left">
+                <ul>
+                    <li><a href="">© 2022 Airbnb, Inc.</a></li>
+                    <li><a href="https://www.airbnb.co.in/help/article/2855/privacy-policy">Privacy</a></li>
+                    <li><a href="https://www.airbnb.co.in/help/article/2908/terms-of-service">Terms</a></li>
+                    <li><a href="https://www.airbnb.co.in/sitemaps/v2">Sitemap</a></li>
+                    <li><a href="https://www.airbnb.co.in/about/company-details">Company details</a></li>
+                </ul>
+            </div>
+            <div class="end-footer-column-right">
+                <ul>
+                    <li><a href="https://twitter.com/airbnb_in"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/airbnb/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/AirbnbIndia"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="end-space" style="clear: both;height: 100px;background-color: rgb(240, 240, 240);">
+        
+    </div> -->
+
+    <script>
+        function places_to_stsy(){
+            var x = document.getElementById("first-search");
+            var y = document.getElementById("second-search");
+            x.style.display = "block";
+            y.style.display = "none";
+        }
+        function experiences(){
+            var x = document.getElementById("second-search");
+            var y = document.getElementById("first-search");
+            x.style.display = "block";
+            y.style.display = "none";
+        }
+        function signup(){
+            var x = document.getElementById("bar-id");
+            if(x.style.display == "none")
+                x.style.display = "block";
+            else
+                x.style.display = "none";
+        }
+        function signup1(){
+            var x = document.getElementById("bar-id");
+            if(x.style.display == "none")
+                x.style.display = "block";
+            else
+                x.style.display = "none";
+        }
+        function signup2(){
+            var x = document.getElementById("bar-id");
+            if(x.style.display == "none")
+                x.style.display = "block";
+            else
+                x.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

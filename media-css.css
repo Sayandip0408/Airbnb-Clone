@@ -1,0 +1,381 @@
+@media (max-width: 845px){
+    #bar-id{
+        display: none !important;
+    }
+    .nav-icon {
+        height: 20px;
+    }
+    .nav-btn{
+        font-size: 1.2vw;
+    }
+    #navbtn4{
+        font-size: 1.2vw;
+    }
+    .search-div {
+        width: 90vw;
+        margin: 0 5vw;
+    }
+    .first-container h1 {
+        font-size: 5vw;
+    }
+    #flexible {
+        width: 15vw;
+        height: 5vh;
+        font-size: 1.8vw;
+        font-weight: 800;
+    }
+    .card {
+        width: 48%;
+    }
+    #card3{
+        margin-left: 0;
+    }
+    #card1 h4{
+        font-size: 5vw;
+        color: white
+    }
+    
+    #card1 p{
+        margin-top: 30px;
+        font-size: 2vw;
+        color: white;
+        font-weight: 50;
+    }
+    #card2 p{
+        margin-top: 30px;
+        font-size: 2vw;
+        color: white;
+        font-weight: 50;
+    }
+    
+    #card2 h4{
+        font-size: 5vw;
+        color: white
+    }
+    #card3 p{
+        margin-top: 30px;
+        font-size: 2vw;
+        color: white;
+        font-weight: 50;
+    }
+    
+    #card3 h4{
+        font-size: 5vw;
+        color: white
+    }
+    #card4 p{
+        margin-top: 30px;
+        font-size: 2vw;
+        color: white;
+        font-weight: 50;
+    }
+    
+    #card4 h4{
+        font-size: 5vw;
+        color: white
+    }
+
+    .trip1{
+        width: 90vw;
+    }
+    .trip2{
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 2%;
+    }
+    
+    .trip1 h1{
+        font-family: 'Source Serif 4', sans-serif;
+        color: #ff385c;
+        margin: 5vw;
+        font-size: 9vw;
+        text-shadow: 1px 1px 1px black;
+    }
+    .trip2 h1{
+        font-family: 'Source Serif 4', sans-serif;
+        color: white;
+        margin: 5vw;
+        font-size: 9vw;
+        text-shadow: 1px 1px 1px black;
+    }
+    
+    .trip-btn{
+        margin: 0 5vw;
+        font-size: 4vw;
+        padding: 1%;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        height: 10vh;
+    }
+    .trip-btn:hover{
+        background-color: rgb(237, 237, 237);
+        cursor: pointer;
+    }
+    #trip-btn1{
+        width: 30vw;
+        font-weight: 900;
+    }
+    #trip-btn2{
+        width: 45vw;
+        font-weight: 900;
+    }
+    
+
+
+}
+
+@media (max-width: 742px){
+    .navbar h1{
+        padding: 0 42vw;
+    }
+    .navbar img{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .both-icon{
+        display: none;
+    }
+    .footer{
+        height: 1200px;
+    }
+    .footer-column{
+        width: 100%;
+        float: left;
+        border-bottom: 1px solid grey;
+    }
+    .footer-column h5{
+        margin-top: 2vh;
+        font-size: 4vw;
+    }
+    
+    .footer-column ul li{
+        list-style: none;
+        margin-top: 1vh;
+    }
+    
+    .footer-column ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        font-size: 2vw;
+    }
+
+
+    .end-footer-column-left{
+        width: 100%;
+    }
+    
+    .end-footer-column-left ul li{
+        margin-left: 20px;
+    }
+    
+    .end-footer-column-left ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 2.2vw;
+    }
+    
+    .end-footer-column-right{
+        width: 100%;
+        float: left;
+        /* border: 1px solid black; */
+    }
+    
+    .end-footer-column-right ul li{
+        width: 13vw;
+        margin-left: 13vw;
+        float: left;
+    }
+    
+    .end-footer-column-right ul li a{
+        font-weight: 500;
+        font-size: 9vw;
+    }
+    
+    .end-footer-column-right ul li:hover{
+        background-color: grey;
+    }
+    
+
+}
+
+@media(max-width: 450px) {
+    .navbar h1{
+        padding: 0 36vw;
+    }
+    .search-div{
+        margin: 0vw 5vw;
+        height: 60px;
+    }
+    #search-btn{
+        height: 60px;
+        width: 30%;
+    }
+    .search-column{
+        height: 60px;
+    }
+    .search-column{
+        display: none;
+    }
+    #loc{
+        display: block;
+        width: 70%;
+    }
+
+    #second-search-btn{
+        width: 30%;
+        height: 60px;
+        margin-left: 27.5%;
+    }
+
+    .first-container h1 {
+        font-size: 5vw;
+    }
+    #flexible {
+        width: 20vw;
+        height: 5vh;
+        font-size: 3vw;
+    }
+
+    #card1 h4{
+        font-size: 7vw;
+    }
+    
+    #card1 p{
+        font-size: 4vw;
+    }
+    #card2 p{
+        font-size: 4vw;
+    }
+    
+    #card2 h4{
+        font-size: 7vw;
+    }
+    #card3 p{
+        font-size: 4vw;
+    }
+    
+    #card3 h4{
+        font-size: 7vw;
+    }
+    #card4 p{
+        font-size: 4vw;
+    }
+    
+    #card4 h4{
+        font-size: 7vw;
+    }
+
+    .trip1 h1{
+        font-size: 12vw;
+    }
+    .trip2 h1{
+        font-size: 12vw;
+    }
+
+
+    .footer{
+        height: 1200px;
+    }
+    .footer-column{
+        width: 100%;
+        float: left;
+        border-bottom: 1px solid grey;
+    }
+    .footer-column h5{
+        margin-top: 2vh;
+        font-size: 6vw;
+    }
+    
+    .footer-column ul li{
+        list-style: none;
+        margin-top: 1vh;
+    }
+    
+    .footer-column ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        font-size: 2.5vw;
+    }
+
+
+    .end-footer-column-left{
+        width: 100%;
+    }
+    
+    .end-footer-column-left ul li{
+        margin-left: 20px;
+    }
+    
+    .end-footer-column-left ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 2.5vw;
+    }
+    
+    .end-footer-column-right{
+        width: 100%;
+        float: left;
+        /* border: 1px solid black; */
+    }
+    
+    .end-footer-column-right ul li{
+        width: 13vw;
+        margin-left: 13vw;
+        float: left;
+    }
+    
+    .end-footer-column-right ul li a{
+        font-weight: 500;
+        font-size: 9vw;
+    }
+    
+    .end-footer-column-right ul li:hover{
+        background-color: grey;
+    }
+}
+
+@media (max-width: 430px){
+    .search-column input {
+        margin-top: 5px;
+    }
+    .footer{
+        height: 1200px;
+    }
+    .search-div{
+        height: 60px;
+    }
+    #search-btn{
+        height: 60px;
+    }
+    #flexible{
+        font-size: 2.4vw;
+    }
+}
+
+@media (max-width: 380px){
+    .footer{
+        height: 1200px;
+    }
+    #flexible{
+        font-size: 2vw;
+    }
+}
+
+/* @media (max-height: 650px){
+    .search-div{
+        height: 10vh;
+    }
+    #search-btn{
+        height: 10vh;
+    }
+} */
